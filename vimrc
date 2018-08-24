@@ -1,12 +1,9 @@
 "Initialize pathogen
 call pathogen#infect()
 
-if has("gui_running")
-    "Enable solarized color scheme
-    set background=dark
-    colorscheme solarized
+    set background=light
+    colorscheme desert
     call togglebg#map("<F5>")
-endif
 
 "Always display statusline
 set laststatus=2
@@ -63,3 +60,7 @@ nmap ,a :!python %<CR>
 nmap <silent>,f <Esc>:Pytest file<CR>
 nmap <silent>,c <Esc>:Pytest class<CR>
 nmap <silent>,m <Esc>:Pytest method<CR>
+set expandtab
+set shiftwidth=2
+set autoindent
+set smartindent
