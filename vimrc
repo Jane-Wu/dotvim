@@ -1,4 +1,4 @@
-"Initialize pathogen
+"Initialize pathogen 
 call pathogen#infect()
 
     set background=light
@@ -64,3 +64,4 @@ set expandtab
 set shiftwidth=2
 set autoindent
 set smartindent
+source ~/.vim/bundle/PHP-Indenting-for-VIm/indent/php.vim
