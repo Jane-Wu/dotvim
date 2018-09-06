@@ -62,6 +62,8 @@ nmap <silent>,c <Esc>:Pytest class<CR>
 nmap <silent>,m <Esc>:Pytest method<CR>
 set expandtab
 set shiftwidth=2
+set tabstop=2
 set autoindent
 set smartindent
+set hlsearch
 source ~/.vim/bundle/PHP-Indenting-for-VIm/indent/php.vim
